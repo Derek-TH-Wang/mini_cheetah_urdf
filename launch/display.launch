@@ -6,7 +6,7 @@
     default="False" />
   <param
     name="robot_description"
-    textfile="$(find mini_cheetah_urdf)/urdf/mini_cheetah_urdf.urdf" />
+    textfile="$(find mini_cheetah_urdf)/urdf/quadruped_robot.urdf" />
   <param
     name="use_gui"
     value="$(arg gui)" />

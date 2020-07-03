@@ -10,7 +10,7 @@
     name="spawn_model"
     pkg="gazebo_ros"
     type="spawn_model"
-    args="-file $(find mini_cheetah_urdf)/urdf/mini_cheetah_urdf.urdf -urdf -model mini_cheetah_urdf"
+    args="-file $(find mini_cheetah_urdf)/urdf/quadruped_robot.urdf -urdf -model mini_cheetah_urdf"
     output="screen" />
   <node
     name="fake_joint_calibration"
